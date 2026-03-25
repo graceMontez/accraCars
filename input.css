@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.hero-bg {
+  background-image: url('https://picsum.photos/id/1015/1920/1080');
+}
+
+.car-card {
+  transition: all 0.3s;
+}
+
+.car-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
+}

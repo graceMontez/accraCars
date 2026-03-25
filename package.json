@@ -1,0 +1,22 @@
+{
+  "name": "elite-motors",
+  "version": "1.0.0",
+  "description": "Premium cars dealership website",
+  "type": "module",
+  "engines": {
+    "node": "18",
+    "npm": "9"
+  },
+  "scripts": {
+    "dev": "tailwindcss -i ./input.css -o ./output.css --watch",
+    "build": "tailwindcss -i ./input.css -o ./output.css --minify"
+  },
+  "keywords": ["cars", "luxury", "ghana"],
+  "author": "Elite Motors",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.4.0"
+  }
+}
